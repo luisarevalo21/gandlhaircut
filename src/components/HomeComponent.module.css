@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  /* display: inline-block; */
+}
+.container img {
+  width: 50%;
+}
+
+.container .text {
+  position: absolute;
+  /* z-index: 999; */
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 50%; /* Set the width of the positioned div */
+}
+
+.block {
+  display: flex;
+}
