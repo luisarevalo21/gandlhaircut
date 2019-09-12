@@ -8,9 +8,11 @@ class ServicesComponent extends Component {
     styles: [
       { styleName: "Men's Hair cut", price: 15 },
       { styleName: "Women's Hair cut", price: 16 },
-      { styleName: "Hair cut", price: 15 },
-      { styleName: "Hair cut", price: 15 },
-      { styleName: "Hair cut", price: 15 }
+      { styleName: "Senior Hair cut", price: 10 },
+      { styleName: "Hair Color", price: "45+" },
+      { styleName: "Perms", price: "60+" },
+      { styleName: "Highlights", price: "50+" },
+      { styleName: "Blow Dry", price: "50+" }
     ]
   };
   render() {
@@ -18,6 +20,9 @@ class ServicesComponent extends Component {
       <div>
         <img src={image} />
         <TableComponent styles={this.state.styles} />
+        <p>Thank You</p>
+        <p>Have a nice day</p>
+        <p>God bless you</p>
       </div>
     );
   }
