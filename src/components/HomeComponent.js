@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import image from "../assets/images/fakeLawn.jpeg";
+import image from "../assets/images/IMG_8999.jpeg";
 import classes from "./HomeComponent.module.css";
 
 class HomeComponent extends Component {
@@ -15,19 +15,22 @@ class HomeComponent extends Component {
           </div>
         </div>
 
-        <div className={classes.block}>
-          <div>
-            <h4>About Us</h4>
-            <p>Family owned salonist since year</p>
+        <div className={classes.AboutInfo}>
+          <div className={classes.AboutText}>
+            <h3>About Us</h3>
+            <p>Family owned salonist for 17+ years</p>
             <p>
               We take pride in our work and do our best to make you look your
               best
             </p>
-            <p>We strive </p>
+            <p>
+              We strive for the highest quality of service, while maintaining a
+              fun, friendly, non-pretentious environment.
+            </p>
+            <p>We look forward to your visit!</p>
           </div>
-          <div>
-            <img src={image} width="100px" />
-          </div>
+
+          <img src={image} />
         </div>
       </div>
     );
