@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import TableComponent from "../../components/TableComponent/TableComponent";
 import image from "../../assets/images/IMG_8999.jpeg";
-import "./Services.module.css";
+import classes from "./Services.module.css";
 class ServicesComponent extends Component {
   state = {
     styles: [
@@ -12,7 +12,8 @@ class ServicesComponent extends Component {
       { styleName: "Hair Color", price: "45+" },
       { styleName: "Perms", price: "60+" },
       { styleName: "Highlights", price: "50+" },
-      { styleName: "Blow Dry", price: "50+" }
+      { styleName: "Blow Dry", price: "50+" },
+      { styleName: "Updos", price: "50+" }
     ]
   };
   render() {
@@ -20,6 +21,7 @@ class ServicesComponent extends Component {
       <div>
         <img src={image} />
         <TableComponent styles={this.state.styles} />
+        <p className={classes.TableFooter}>*prices are subject to change</p>
         <p>Thank You</p>
         <p>Have a nice day</p>
         <p>God bless you</p>
