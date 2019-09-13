@@ -22,9 +22,7 @@ class ServicesComponent extends Component {
         <img src={image} />
         <TableComponent styles={this.state.styles} />
         <p className={classes.TableFooter}>*prices are subject to change</p>
-        <p>Thank You</p>
-        <p>Have a nice day</p>
-        <p>God bless you</p>
+        <p>Thank You. Have a nice day. God bless you</p>
       </div>
     );
   }
