@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import image from "../assets/images/IMG_8999.jpeg";
+import image from "../../assets/images/IMG_8999.jpeg";
 import classes from "./HomeComponent.module.css";
 
 class HomeComponent extends Component {

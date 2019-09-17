@@ -1,0 +1,46 @@
+.StyleName {
+  padding: 2px;
+  padding-right: 20px;
+  height: 30px;
+  text-align: left;
+}
+
+.Price {
+  text-align: left;
+}
+
+.Table {
+  flex-direction: row;
+  justify-content: center;
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.Table tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.Table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.Table tr:hover {
+  background-color: grey;
+}
+
+.Heading {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .Table {
+    width: 80%;
+  }
+}
+
+.TableFooter {
+  margin-bottom: 0;
+}

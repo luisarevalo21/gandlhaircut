@@ -1,0 +1,98 @@
+.navbar {
+  background: #fff;
+  width: 100%;
+  /* text-align: right !important;
+  display: flex; */
+  /* margin-left: auto !important; */
+  /* justify-content: flex-end; */
+  font-size: 20px;
+
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  /* position: fixed; */
+}
+.nav {
+  margin-left: auto;
+  text-align: right;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  /* padding: 5px; */
+  margin: 0 2vw;
+  /* display: flex; */
+  font-size: 3vh;
+
+  /* margin-right: 10px; */
+}
+
+.active {
+  color: #f47621 !important;
+
+  background-color: rgba(154, 137, 137, 0.194);
+}
+/* .active {
+  font-weight: bold;
+  color: #f47621;
+} */
+/* nav a:active {
+  color: red;
+} */
+
+.navbar a:focus {
+  /* border-bottom: 2px solid blue; */
+  font-weight: bold;
+  color: #f47621;
+}
+.navbar a:hover {
+  /* border-bottom: 2px solid blue; */
+  font-weight: bold;
+  color: #f47621;
+}
+
+/* .NavButton {
+  display: none;
+} */
+@media only screen and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+  }
+  .navbar a {
+    display: block;
+  }
+
+  .nav {
+    margin-left: auto;
+    text-align: left;
+  }
+  /* //button for mobile  */
+  .navbar-toggler {
+    margin-left: auto;
+
+    /* //change the color */
+    background: #f7f7f7 !important;
+  }
+  /* .NavButton { */
+  /* makes the button visible
+    display: block;
+
+    /*since we are here, we can style it a little bit!*/
+  /* padding: 2vw;
+    font-size: 3vh;
+    background-color: #afe0ff;
+    border: none; */
+
+  /*outline none removes the default blue border that appears anytime you click on the button*/
+  /* outline: none;
+
+    cursor: pointer;
+    align-self: flex-start; */
+
+  .navbar a:hover {
+    /* border-bottom: 2px solid blue; */
+    font-weight: bold;
+    color: #f47621;
+  }
+}

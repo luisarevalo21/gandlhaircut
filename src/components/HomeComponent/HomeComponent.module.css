@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 20px;
+  /* padding: 10px; */
 }
 .AboutText {
   text-align: left;
