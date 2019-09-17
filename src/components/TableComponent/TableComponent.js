@@ -4,7 +4,7 @@ import classes from "./TableComponent.module.css";
 const tableComponent = props => {
   const data = props.styles.map(element => {
     return (
-      <tr>
+      <tr key={element.styleName}>
         <td className={classes.StyleName}>{element.styleName}</td>
         <td className={classes.Price}>${element.price}</td>
       </tr>
