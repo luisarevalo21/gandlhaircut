@@ -6,7 +6,7 @@ import ServicesComponent from "./containers/ServicesComponent/ServicesComponent"
 import NavBar from "./components/Navbar/Navbar";
 import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,8 @@ function App() {
         <Route exact path="/" component={HomeComponent} />
         <Route path="/services" component={ServicesComponent} />
       </Switch>
+
+      <Footer />
     </div>
   );
 }
