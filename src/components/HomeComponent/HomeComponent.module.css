@@ -8,6 +8,8 @@
 }
 
 .container .text {
+  font-family: "Nunito", sans-serif;
+
   position: absolute;
   /* z-index: 999; */
   margin: 0 auto;
@@ -24,8 +26,13 @@
 
 .AboutInfo {
   display: flex;
-  justify-content: center;
+  /* justify-items: auto; */
   width: 100%;
+
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  padding: 10px;
+
   /* padding: 10px; */
 }
 .AboutText {
@@ -35,7 +42,7 @@
 }
 
 .AboutInfo img {
-  width: 40%;
+  width: 50%;
 }
 h3 {
   text-align: center;
