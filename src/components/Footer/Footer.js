@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
+import Contact from "../Contact/Contact";
 const footer = props => (
   <div className={classes.Footer}>
     <div className={classes.Location}>
@@ -22,6 +23,7 @@ const footer = props => (
         </a>
       </div>
     </div>
+    <Contact />
   </div>
 );
 
