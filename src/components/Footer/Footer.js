@@ -23,7 +23,7 @@ const footer = props => (
         </a>
       </div>
     </div>
-    <Contact />
+    <Contact className={classes.Contact} />
   </div>
 );
 

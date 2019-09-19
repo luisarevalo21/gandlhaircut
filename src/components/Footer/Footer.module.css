@@ -8,6 +8,9 @@
   color: #ccc;
 }
 
+p {
+  margin: 0;
+}
 .Location {
   margin: 0 20px;
 }
@@ -33,4 +36,19 @@ h4 {
 /* can chagne the color */
 .PhoneNumber:hover {
   color: red !important;
+}
+@media (max-width: 500px) {
+  .Footer {
+    flex-wrap: wrap;
+  }
+
+  .Info {
+    margin-bottom: 5px;
+  }
+  .Hours {
+    margin-bottom: 5px;
+  }
+  .PhoneNumber {
+    margin-bottom: 5px;
+  }
 }
