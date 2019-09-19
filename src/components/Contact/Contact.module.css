@@ -1,0 +1,37 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.Form input {
+  background-color: lightgray;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+}
+.Form textarea {
+  background-color: lightgray;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  min-height: 70px;
+}
+
+/* .Description {
+  min-height: 70px;
+} */
+.Form button {
+  width: 50%;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+}
+.Form button:hover {
+  background-color: #f47621 !important;
+  font-weight: bold;
+}
