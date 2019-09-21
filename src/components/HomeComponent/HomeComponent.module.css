@@ -1,13 +1,13 @@
-.container {
+.Container {
   position: relative;
   margin: 0 auto;
   /* display: inline-block; */
 }
-.container img {
+.Container img {
   width: 50%;
 }
 
-.container .text {
+.Container .text {
   font-family: "Nunito", sans-serif;
 
   position: absolute;
@@ -20,7 +20,7 @@
   background-color: black;
   top: 80%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  width: 50%; /* Set the width of the positioned div */
+  width: 30%; /* Set the width of the positioned div */
   opacity: 0.7;
 }
 
@@ -46,4 +46,26 @@
 }
 h3 {
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .AboutInfo {
+    flex-direction: column;
+  }
+  .Container img {
+    width: 100%;
+  }
+
+  .AboutInfo img {
+    width: 100%;
+  }
+  .AboutText {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .Container .text {
+    width: 100%;
+    top: 100%;
+  }
 }
