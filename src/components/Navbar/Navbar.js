@@ -5,6 +5,7 @@ import "./Navbar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
+import { Link } from "react-scroll";
 const navBar = props => {
   // state = {
   //   stringName: ""
@@ -56,7 +57,18 @@ const navBar = props => {
           </NavLink>
           <NavLink to="/services">Services</NavLink>
           <NavLink to="/stylists">Stylists</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+
+          {/* <NavLink to="/"> */}
+          <Link
+            to="example-destination"
+            spy={true}
+            smooth={true}
+            // activeClass="some-active-class"
+          >
+            Contact
+          </Link>
+          {/* Contact
+          </NavLink> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

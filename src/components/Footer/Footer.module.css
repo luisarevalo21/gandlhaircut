@@ -11,8 +11,26 @@
 p {
   margin: 0;
 }
-.Location {
-  margin: 0 20px;
+
+/* a {
+  margin: 0;
+}
+
+a:hover {
+  color: #f47621 !important;
+  text-decoration: none !important;
+} */
+/* .Location {
+  /* margin: 0 20px; */
+
+.Address {
+  color: #ccc;
+  text-decoration: none !important;
+}
+
+.Address:hover {
+  color: #f47621 !important;
+  text-decoration: none !important;
 }
 
 .Info {
@@ -41,14 +59,19 @@ h4 {
   .Footer {
     flex-wrap: wrap;
   }
-
+  .LocationBlock {
+    margin-bottom: 10px;
+  }
   .Info {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin: 0;
   }
   .Hours {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: left;
   }
   .PhoneNumber {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: left;
   }
 }

@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import image from "../../assets/images/IMG_8999.jpeg";
 import classes from "./HomeComponent.module.css";
 
+import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 class HomeComponent extends Component {
   state = {};
   render() {
     return (
       <div>
-        <div className={classes.container}>
+        <div className={classes.Container}>
           <img src={image}></img>
 
           <div className={classes.text}>
@@ -32,6 +33,8 @@ class HomeComponent extends Component {
 
           <img src={image} />
         </div>
+
+        <PhotoSlideShow />
       </div>
     );
   }
