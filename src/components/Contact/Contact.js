@@ -18,6 +18,7 @@ const Contact = props => {
 
   return (
     <form className={classes.Form} onSubmit={handleSubmit}>
+      <h4 className={classes.Header}>Contact Us</h4>
       <input
         placeholder="Name"
         type="text"
