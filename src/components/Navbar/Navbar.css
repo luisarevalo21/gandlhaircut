@@ -14,6 +14,7 @@
   /* position: fixed; */
 }
 .nav {
+  padding: 20px;
   margin-left: auto;
   text-align: right;
 }

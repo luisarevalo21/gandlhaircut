@@ -49,6 +49,7 @@ const navBar = props => {
     // </button>
 
     <Navbar collapseOnSelect="true" expand="md">
+      <Navbar.Brand href="/">G & L Haircuts</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav">
