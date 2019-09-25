@@ -13,6 +13,11 @@
   padding-bottom: 20px; */
   /* position: fixed; */
 }
+
+.Logo {
+  display: flex;
+  justify-content: left;
+}
 .nav {
   padding: 20px;
   margin-left: auto;
@@ -60,10 +65,12 @@
 } */
 @media only screen and (max-width: 500px) {
   .navbar {
-    display: flex;
     flex-direction: row;
-    margin-right: auto;
+    flex-wrap: nowrap;
+
+    /* margin-right: auto; */
   }
+
   .navbar a {
     display: block;
   }
@@ -71,6 +78,7 @@
   .nav {
     margin-left: auto;
     text-align: left;
+    flex-wrap: wrap;
   }
   /* //button for mobile  */
   .navbar-toggler {
@@ -79,6 +87,7 @@
     /* //change the color */
     background: #f7f7f7 !important;
   }
+
   /* .NavButton { */
   /* makes the button visible
     display: block;

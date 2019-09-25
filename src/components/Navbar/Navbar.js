@@ -4,7 +4,7 @@ import "./Navbar.css";
 // import ResponsiveMenu from "react-responsive-navbar";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-
+import Logo from "../../assets/images/Logo/GL.Logo.png";
 import { Link } from "react-scroll";
 const navBar = props => {
   // state = {
@@ -49,7 +49,16 @@ const navBar = props => {
     // </button>
 
     <Navbar collapseOnSelect="true" expand="md">
-      <Navbar.Brand href="/">G & L Haircuts</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <img
+          src={Logo}
+          // width="auto"
+          // height="auto"
+          className="Logo"
+          alt="React Bootstrap logo"
+          // alt="React Bootstrap logo"
+        />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav">

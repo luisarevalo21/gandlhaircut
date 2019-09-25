@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import image from "../../assets/images/IMG_8999.jpeg";
+import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 import classes from "./HomeComponent.module.css";
 import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 class HomeComponent extends Component {
   state = {};
@@ -13,10 +12,10 @@ class HomeComponent extends Component {
       <div>
         {/* <Zoom> */}
         <div className={classes.Container}>
-          <img src={image}></img>
+          <img src={homeImage}></img>
 
           <div className={classes.text}>
-            <h4>Welcome to G & L Haircuts</h4>
+            <h4>Welcome to G & L Haircut</h4>
           </div>
         </div>
         {/* </Zoom> */}
@@ -39,12 +38,13 @@ class HomeComponent extends Component {
             </div>
           </Slide>
 
-          <img src={image} />
+          <PhotoSlideShow />
+          {/* <img src={homeImage} /> */}
         </div>
         {/* </Zoom> */}
 
         <Fade bottom delay={1500}>
-          <PhotoSlideShow />
+          {/* <PhotoSlideShow /> */}
         </Fade>
       </div>
     );
