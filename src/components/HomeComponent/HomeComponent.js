@@ -38,7 +38,7 @@ class HomeComponent extends Component {
             </div>
           </Slide>
 
-          <PhotoSlideShow />
+          {/* <PhotoSlideShow /> */}
           {/* <img src={homeImage} /> */}
         </div>
         {/* </Zoom> */}

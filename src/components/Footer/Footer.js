@@ -19,27 +19,28 @@ const footer = props => (
         </a>
       </div>
 
-      <div className={classes.Info}>
-        <div className={classes.Hours}>
-          <h4>Hours</h4>
-          <p>Monday - Friday: 11AM - 7PM</p>
-          <p>Saturday: 10AM - 6PM</p>
-          <p>Sunday: CLOSED</p>
-        </div>
-        <div className={classes.Phone}>
-          <h4>Phone Numbers</h4>
-          <a href="tel:(510) 222-5756" className={classes.PhoneNumber}>
-            Salon: (510) 222-5756
-          </a>
-          <a href="tel:(510) 672-9878" className={classes.PhoneNumber}>
-            Glenda: (510) 672-9878
-          </a>
-          <a href="tel:(510) 695-8030" className={classes.PhoneNumber}>
-            Lorena: (510) 695-8030
-          </a>
-        </div>
+      {/* <div className={classes.Info}> */}
+      <div className={classes.Hours}>
+        <h4>Hours</h4>
+        <p>Monday - Friday: 11AM - 7PM</p>
+        <p>Saturday: 10AM - 6PM</p>
+        <p>Sunday: CLOSED</p>
       </div>
-      <Contact className={classes.Contact} />
+
+      <div className={classes.Phone}>
+        <h4>Phone Numbers</h4>
+        <a href="tel:(510) 222-5756" className={classes.PhoneNumber}>
+          Salon: (510) 222-5756
+        </a>
+        <a href="tel:(510) 672-9878" className={classes.PhoneNumber}>
+          Glenda: (510) 672-9878
+        </a>
+        <a href="tel:(510) 695-8030" className={classes.PhoneNumber}>
+          Lorena: (510) 695-8030
+        </a>
+      </div>
+      {/* </div> */}
+      {/* <Contact className={classes.Contact} /> */}
     </div>
   </Element>
 );
