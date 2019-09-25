@@ -27,9 +27,15 @@ const footer = props => (
           <p>Sunday: CLOSED</p>
         </div>
         <div className={classes.Phone}>
-          <h4>Phone Number</h4>
+          <h4>Phone Numbers</h4>
           <a href="tel:(510) 222-5756" className={classes.PhoneNumber}>
-            (510) 222-5756
+            Salon: (510) 222-5756
+          </a>
+          <a href="tel:(510) 672-9878" className={classes.PhoneNumber}>
+            Glenda: (510) 672-9878
+          </a>
+          <a href="tel:(510) 695-8030" className={classes.PhoneNumber}>
+            Lorena: (510) 695-8030
           </a>
         </div>
       </div>

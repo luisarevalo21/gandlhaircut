@@ -50,6 +50,8 @@ h4 {
 .PhoneNumber {
   text-decoration: none;
   color: #f47621 !important;
+  display: flex;
+  flex: wrap;
 }
 /* can chagne the color */
 .PhoneNumber:hover {
