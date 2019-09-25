@@ -1,8 +1,9 @@
 .navbar {
   background: #fff;
   width: 100%;
+  display: flex;
   /* text-align: right !important;
-  display: flex; */
+ display: flex; 
   /* margin-left: auto !important; */
   /* justify-content: flex-end; */
   font-size: 20px;
@@ -13,7 +14,10 @@
   padding-bottom: 20px; */
   /* position: fixed; */
 }
-
+/* 
+.container {
+  flex-wrap: wrap;
+} */
 .Logo {
   display: flex;
   justify-content: left;
@@ -22,6 +26,7 @@
   padding: 20px;
   margin-left: auto;
   text-align: right;
+  flex-wrap: nowrap !important;
 }
 .navbar a {
   text-decoration: none;
@@ -65,11 +70,19 @@
 } */
 @media only screen and (max-width: 500px) {
   .navbar {
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: inline-block !important;
 
-    /* margin-right: auto; */
+    /* align-items: center !important;
+    justify-content: space-between !important; */
   }
+  .container {
+    flex-wrap: nowrap !important;
+  }
+
+  /* .logoandbutton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important; */
 
   .navbar a {
     display: block;
@@ -82,12 +95,15 @@
   }
   /* //button for mobile  */
   .navbar-toggler {
-    margin-left: auto;
-
     /* //change the color */
+    display: inline-block;
+    margin: 0;
     background: #f7f7f7 !important;
   }
 
+  .Logo {
+    margin: 0;
+  }
   /* .NavButton { */
   /* makes the button visible
     display: block;

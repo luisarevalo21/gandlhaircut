@@ -49,17 +49,20 @@ const navBar = props => {
     // </button>
 
     <Navbar collapseOnSelect="true" expand="md">
-      <Navbar.Brand href="/">
-        <img
-          src={Logo}
-          // width="auto"
-          // height="auto"
-          className="Logo"
-          alt="React Bootstrap logo"
-          // alt="React Bootstrap logo"
-        />
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav " />
+      <div className="container">
+        <Navbar.Brand href="/">
+          <img
+            src={Logo}
+            // width="auto"
+            // height="auto"
+            className="Logo"
+            alt="React Bootstrap logo"
+            // alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav " />
+      </div>
+
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav">
           <NavLink exact to="/">
