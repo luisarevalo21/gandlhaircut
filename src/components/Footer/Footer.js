@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import Contact from "../Contact/Contact";
-import Navbar from 'react-bootstrap/Navbar';
+// import Navbar from 'react-bootstrap/Navbar';
 import { Element } from "react-scroll";
 
 const footer = props => (
