@@ -1,7 +1,7 @@
-/* #logo {
-  height: 400%;
-  width: 400%;
-} */
+#logo {
+  height: 40px;
+  /* width: 40%; */
+}
 
 .Container {
   position: relative;
@@ -10,11 +10,11 @@
   /* display: inline-block; */
 }
 
-.Container img {
+/* .Container img {
   width: 100%;
   margin: 0;
   height: 100%;
-}
+} */
 
 .Container .text {
   font-family: "Nunito", sans-serif;
