@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import classes from "./PhotoSlideShow";
+// import classes from "./PhotoSlideShow";
 import image from "../../assets/images/IMG_8999.jpeg";
 const photoSlideShow = props => {
   return (

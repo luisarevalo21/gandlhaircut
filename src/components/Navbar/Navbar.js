@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 // import ResponsiveMenu from "react-responsive-navbar";
@@ -49,7 +49,6 @@ const navBar = props => {
     // </button>
 
     <Navbar collapseOnSelect="true" expand="md">
-      <Navbar.Brand href="/">G & L Haircuts</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Brand><i className="fas fa-cut"></i> G&L Haircut</Navbar.Brand>
       <Navbar.Collapse id="responsive-navbar-nav">

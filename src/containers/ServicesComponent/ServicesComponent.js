@@ -21,7 +21,7 @@ class ServicesComponent extends Component {
   render() {
     return (
       <div>
-        <img src={image} />
+        <img src={image} alt='prices'/>
         <TableComponent styles={this.state.styles} />
         <p className={classes.TableFooter}>*prices are subject to change</p>
         <p>Thank You. Have a nice day!</p>
