@@ -59,6 +59,7 @@ h4 {
   text-decoration: none;
   color: #f47621 !important;
   text-align: left;
+  /* font-feature-settings: "tnum" !important; */
 
   /* display: flex; */
 }

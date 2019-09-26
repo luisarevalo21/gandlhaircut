@@ -5,7 +5,7 @@
   /* display: inline-block; */
 }
 .Container img {
-  width: 50%;
+  width: 100%;
   margin: 0;
   height: 100%;
 }
@@ -29,12 +29,15 @@
 
 .AboutInfo {
   display: flex;
+  flex-direction: row;
   /* justify-items: auto; */
   width: 100%;
-  max-height: 400px;
+  margin: 0;
+  /* height: 300px; */
   margin-top: 20px;
   font-family: "Nunito", sans-serif;
   padding: 10px;
+  flex-wrap: nowrap;
 
   /* padding: 10px; */
 }

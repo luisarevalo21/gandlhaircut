@@ -5,6 +5,7 @@ import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
+import InsideComponent from "../InsideComponent/InsideComponent";
 class HomeComponent extends Component {
   state = {};
   render() {
@@ -38,9 +39,11 @@ class HomeComponent extends Component {
             </div>
           </Slide>
 
-          {/* <PhotoSlideShow /> */}
+          <PhotoSlideShow />
           {/* <img src={homeImage} /> */}
         </div>
+        <InsideComponent />
+
         {/* </Zoom> */}
 
         <Fade bottom delay={1500}>

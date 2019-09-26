@@ -20,7 +20,7 @@ class ServicesComponent extends Component {
   };
   render() {
     return (
-      <div>
+      <div className={classes.Services}>
         <img src={image} />
         <TableComponent styles={this.state.styles} />
         <p className={classes.TableFooter}>*prices are subject to change</p>
