@@ -42,7 +42,7 @@
 .active {
   color: #f47621 !important;
 
-  background-color: rgba(154, 137, 137, 0.194);
+  background-color: transparent;
 }
 /* .active {
   font-weight: bold;

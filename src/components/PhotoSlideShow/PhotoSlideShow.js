@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import classes from "./PhotoSlideShow";
+// import classes from "./PhotoSlideShow";
 import image from "../../assets/images/IMG_8999.jpeg";
 import AboutImage1 from "../../assets/images/About_Photos/AboutImage1Cropped.jpg";
 import AboutImage2 from "../../assets/images/About_Photos/AboutImage2Cropped.jpg";

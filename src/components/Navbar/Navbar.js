@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 // import ResponsiveMenu from "react-responsive-navbar";
@@ -49,6 +49,7 @@ const navBar = props => {
     // </button>
 
     <Navbar collapseOnSelect="true" expand="md">
+
       <div className="container">
         <Navbar.Brand href="/">
           <img
@@ -62,6 +63,7 @@ const navBar = props => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       </div>
+
 
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav">

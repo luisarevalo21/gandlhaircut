@@ -1,9 +1,15 @@
+/* #logo {
+  height: 400%;
+  width: 400%;
+} */
+
 .Container {
   position: relative;
   margin: 0 auto;
 
   /* display: inline-block; */
 }
+
 .Container img {
   width: 100%;
   margin: 0;
