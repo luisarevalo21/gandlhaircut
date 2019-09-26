@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 import image from "../../assets/images/IMG_8999.jpeg";
 import Logo from '../../assets/images/LogoGL.png';
 import classes from "./HomeComponent.module.css";
@@ -6,10 +7,13 @@ import classes from "./HomeComponent.module.css";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import './HomeComponent.module.css';
-
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
+import InsideComponent from "../InsideComponent/InsideComponent";
+
 class HomeComponent extends Component {
+  
   state = {};
+
   render() {
     return (
       <div>
@@ -20,6 +24,7 @@ class HomeComponent extends Component {
           {/* <div className={classes.text}>
             <h4>Welcome to G & L Haircuts</h4>
           </div> */}
+
         </div>
         {/* </Zoom> */}
 
@@ -41,12 +46,16 @@ class HomeComponent extends Component {
             </div>
           </Slide>
 
-          <img src={image} alt='store front'/>
+          <PhotoSlideShow />
+          {/* <img src={homeImage} /> */}
+
         </div>
+        <InsideComponent />
+
         {/* </Zoom> */}
 
         <Fade bottom delay={1500}>
-          <PhotoSlideShow />
+          {/* <PhotoSlideShow /> */}
         </Fade>
       </div>
     );
