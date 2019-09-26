@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import homeImage from "../../assets/images/Home_Photos/home1.jpg";
-import image from "../../assets/images/IMG_8999.jpeg";
+// import homeImage from "../../assets/images/Home_Photos/home1.jpg";
+// import image from "../../assets/images/IMG_8999.jpeg";
 import Logo from '../../assets/images/LogoGL.png';
 import classes from "./HomeComponent.module.css";
 // import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
@@ -18,8 +18,8 @@ class HomeComponent extends Component {
     return (
       <div>
         {/* <Zoom> */}
-        <div className={classes.Container}>
-          <img id='logo' src={Logo} alt='logo' style={{}}/>
+        <div id='logo' className={classes.Container}>
+          <img  src={Logo} alt='logo' style={{}}/>
 
           {/* <div className={classes.text}>
             <h4>Welcome to G & L Haircuts</h4>
@@ -32,17 +32,14 @@ class HomeComponent extends Component {
         <div className={classes.AboutInfo}>
           <Slide duration={2000} left>
             <div className={classes.AboutText}>
-              <h3>About Us</h3>
-              <p>Family owned salonist for 17+ years</p>
-              <p>
+              <h2>About Us</h2><br></br>
+              <p className='text-center'>G&L Haircut has been a Family owned Salon for 17+ years.</p><br></br>
+              <p className='text-center'>
                 We take pride in our work and do our best to make you look your
-                best
-              </p>
-              <p>
-                We strive for the highest quality of service, while maintaining
+                best. We strive for the highest quality of service, while maintaining
                 a fun, friendly, non-pretentious environment.
-              </p>
-              <p>We look forward to your visit!</p>
+              </p><br></br>
+              <p className='h4 text-center'>We look forward to your visit!</p>
             </div>
           </Slide>
 

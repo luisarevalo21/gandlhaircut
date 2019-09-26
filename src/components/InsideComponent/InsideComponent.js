@@ -1,5 +1,5 @@
 import React from "react";
-import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
+// import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 import Carousel from "react-bootstrap/Carousel";
 import ImageComponent from "../ImageComponent/ImageComponent";
 import InsideImage1 from "../../assets/images/Inside_Photos/Inside1.jpg";
