@@ -50,7 +50,7 @@ const navBar = props => {
 
     <Navbar collapseOnSelect="true" expand="md">
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
-      <Navbar.Brand><i className="fas fa-cut"></i> G&L Haircut</Navbar.Brand>
+      {/* <Navbar.Brand><i className="fas fa-cut"></i> G&L Haircut</Navbar.Brand> */}
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav">
           <NavLink exact to="/">

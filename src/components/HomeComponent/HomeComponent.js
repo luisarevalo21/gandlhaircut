@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import image from "../../assets/images/IMG_8999.jpeg";
+import Logo from '../../assets/images/LogoGL.png';
 import classes from "./HomeComponent.module.css";
 // import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+import './HomeComponent.module.css';
 
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 class HomeComponent extends Component {
@@ -13,11 +15,11 @@ class HomeComponent extends Component {
       <div>
         {/* <Zoom> */}
         <div className={classes.Container}>
-          <img src={image} alt='store front'></img>
+          <img id='logo' src={Logo} alt='logo' style={{}}/>
 
-          <div className={classes.text}>
+          {/* <div className={classes.text}>
             <h4>Welcome to G & L Haircuts</h4>
-          </div>
+          </div> */}
         </div>
         {/* </Zoom> */}
 
