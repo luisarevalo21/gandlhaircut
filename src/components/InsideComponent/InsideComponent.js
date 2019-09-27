@@ -1,10 +1,10 @@
 import React from "react";
-import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
+// import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 import Carousel from "react-bootstrap/Carousel";
 import ImageComponent from "../ImageComponent/ImageComponent";
-import InsideImage1 from "../../assets/images/Inside_Photos/inside1.JPG";
-import InsideImage2 from "../../assets/images/Inside_Photos/inside2.JPG";
-import InsideImage3 from "../../assets/images/Inside_Photos/inside3.JPG";
+import InsideImage1 from "../../assets/images/Inside_Photos/Inside1.jpg";
+import InsideImage2 from "../../assets/images/Inside_Photos/Inside2.jpg";
+import InsideImage3 from "../../assets/images/Inside_Photos/Inside3.jpg";
 
 import classes from "./InsideComponent.module.css";
 

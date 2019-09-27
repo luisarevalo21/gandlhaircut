@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import homeImage from "../../assets/images/Home_Photos/home1.jpg";
-import image from "../../assets/images/IMG_8999.jpeg";
-import Logo from "../../assets/images/LogoGL.png";
+// import homeImage from "../../assets/images/Home_Photos/home1.jpg";
+// import image from "../../assets/images/IMG_8999.jpeg";
+// import Logo from "../../assets/images/Home_Photos/LogoGL.png";
 import classes from "./HomeComponent.module.css";
 // import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 import Slide from "react-reveal/Slide";
@@ -19,7 +19,7 @@ class HomeComponent extends Component {
       <div>
         {/* <Zoom> */}
         <div className={classes.Container}>
-          <img src={homeImage}></img>
+          {/* <img src={homeImage}></img> */}
           <div className={classes.text}>
             <h4>Welcome to G & L Haircut</h4>
           </div>
@@ -35,21 +35,23 @@ class HomeComponent extends Component {
         <div className={classes.AboutInfo}>
           <Slide duration={2000} left>
             <div className={classes.AboutText}>
-              <h3>About Us</h3>
-              <p>Family owned salonist for 17+ years</p>
-              <p>
+              <h2>About Us</h2>
+              <br></br>
+              <p className="text-center">
+                G&L Haircut has been a Family owned Salon for 17+ years.
+              </p>
+              <br></br>
+              <p className="text-center">
                 We take pride in our work and do our best to make you look your
-                best
+                best. We strive for the highest quality of service, while
+                maintaining a fun, friendly, non-pretentious environment.
               </p>
-              <p>
-                We strive for the highest quality of service, while maintaining
-                a fun, friendly, non-pretentious environment.
-              </p>
-              <p>We look forward to your visit!</p>
+              <br></br>
+              <p className="h4 text-center">We look forward to your visit!</p>
             </div>
           </Slide>
           {/* <Slide duration={2000} right delay={1000}> */}
-          <PhotoSlideShow props />
+          <PhotoSlideShow />
           {/* </Slide> */}
           {/* <img src={homeImage} /> */}
         </div>
