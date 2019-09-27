@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 // import homeImage from "../../assets/images/Home_Photos/";
-import Logo from "../../assets/images/LogoGL.png";
+// import Logo from "../../assets/images/LogoGL.png";
 import classes from "./HomeComponent.module.css";
 // import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 import Slide from "react-reveal/Slide";
