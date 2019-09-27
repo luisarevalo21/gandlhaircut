@@ -9,3 +9,21 @@
 .Carousel {
   height: 30%;
 } */
+
+/* .Carosuel {
+  margin: auto 0;
+} */
+.Carousel {
+  width: 30% !important;
+  /* 
+  display: flex !important;
+  justify-content: center !important; */
+  /* height: auto; */
+  /* border: 2px red solid; */
+}
+
+@media (max-width: 500px) {
+  .Carousel {
+    width: 100% !important;
+  }
+}

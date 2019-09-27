@@ -1,7 +1,14 @@
 .InsideMain {
-  width: 70%;
-  margin: 0 auto;
+  width: 60%;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .InsideMain {
+    width: 100%;
+    /* height: 500px; */
+  }
 }

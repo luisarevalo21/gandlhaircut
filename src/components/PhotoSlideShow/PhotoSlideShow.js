@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-// import classes from "./PhotoSlideShow";
+import classes from "./PhotoSlideShow.module.css";
 import image from "../../assets/images/IMG_8999.jpeg";
 import AboutImage1 from "../../assets/images/About_Photos/AboutImage1Cropped.jpg";
 import AboutImage2 from "../../assets/images/About_Photos/AboutImage2Cropped.jpg";
@@ -12,10 +12,10 @@ import ImageComponent from "../ImageComponent/ImageComponent";
 
 const photoSlideShow = props => {
   return (
-    <Carousel>
+    <Carousel className={classes.Carousel}>
       <Carousel.Item
-        style={{ height: "300px" }}
-        // style={{ height: "300px", overflow: "hidden", width: "100%" }}
+      // className={classes.carouselItem}
+      // style={{ height: "500px", overflow: "hidden", width: "100%" }}
       >
         <ImageComponent image={AboutImage1} />
         {/* <img className="d-block w-100" src={AboutImage1} alt="First slide" /> */}
@@ -26,7 +26,10 @@ const photoSlideShow = props => {
       </Carousel.Item>
 
       <Carousel.Item
-        style={{ height: "300px" }}
+        className={classes.carouselItem}
+
+        // style={{}}        className={classes.Carousel}
+
         // style={{ height: "300px", overflow: "hidden", width: "100%" }}
       >
         <ImageComponent image={AboutImage2} />
@@ -38,7 +41,9 @@ const photoSlideShow = props => {
         </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item
-        style={{ height: "300px" }}
+        className={classes.carouselItem}
+
+        // style={{ height: "auto" }}
         // style={{ height: "300px", overflow: "hidden", width: "100%" }}
       >
         <ImageComponent image={AboutImage3} />
@@ -50,6 +55,7 @@ const photoSlideShow = props => {
         </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
+
     // </div>
 
     // <Carousel className={classes.Carousel}>

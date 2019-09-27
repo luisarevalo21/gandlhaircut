@@ -39,7 +39,8 @@
   /* justify-items: auto; */
   width: 100%;
   margin: 0;
-  /* height: 300px; */
+
+  /* max-height: 500px; */
   margin-top: 20px;
   font-family: "Nunito", sans-serif;
   padding: 10px;

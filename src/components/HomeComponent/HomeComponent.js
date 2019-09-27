@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 import image from "../../assets/images/IMG_8999.jpeg";
-import Logo from '../../assets/images/LogoGL.png';
+import Logo from "../../assets/images/LogoGL.png";
 import classes from "./HomeComponent.module.css";
 // import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import './HomeComponent.module.css';
+import "./HomeComponent.module.css";
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 import InsideComponent from "../InsideComponent/InsideComponent";
+// import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 
 class HomeComponent extends Component {
-  
   state = {};
 
   render() {
@@ -19,12 +19,15 @@ class HomeComponent extends Component {
       <div>
         {/* <Zoom> */}
         <div className={classes.Container}>
-          <img id='logo' src={Logo} alt='logo' style={{}}/>
+          <img src={homeImage}></img>
+          <div className={classes.text}>
+            <h4>Welcome to G & L Haircut</h4>
+          </div>
+          {/* <img id='logo' src={Logo} alt='logo' style={{}}/> */}
 
           {/* <div className={classes.text}>
             <h4>Welcome to G & L Haircuts</h4>
           </div> */}
-
         </div>
         {/* </Zoom> */}
 
@@ -45,18 +48,18 @@ class HomeComponent extends Component {
               <p>We look forward to your visit!</p>
             </div>
           </Slide>
-
-          <PhotoSlideShow />
+          {/* <Slide duration={2000} right delay={1000}> */}
+          <PhotoSlideShow props />
+          {/* </Slide> */}
           {/* <img src={homeImage} /> */}
-
         </div>
         <InsideComponent />
 
         {/* </Zoom> */}
 
-        <Fade bottom delay={1500}>
-          {/* <PhotoSlideShow /> */}
-        </Fade>
+        {/* <Fade bottom delay={1500}> */}
+        {/* <PhotoSlideShow /> */}
+        {/* </Fade> */}
       </div>
     );
   }
