@@ -1,0 +1,27 @@
+.CarouselLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* .Photos {
+  justify-content: center;
+  width: 50%;
+} */
+
+.Carousel {
+  width: 40% !important;
+}
+.Showcase {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+@media (max-width: 500px) {
+  .CarouselLayout {
+    flex-direction: column;
+  }
+  .Carousel {
+    width: 100% !important;
+  }
+}

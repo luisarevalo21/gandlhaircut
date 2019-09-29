@@ -9,6 +9,7 @@ import Fade from "react-reveal/Fade";
 import "./HomeComponent.module.css";
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 import InsideComponent from "../InsideComponent/InsideComponent";
+import ShowcaseComponent from "../ShowcaseComponent/ShowcaseComponent";
 // import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 
 class HomeComponent extends Component {
@@ -55,6 +56,8 @@ class HomeComponent extends Component {
           {/* <img src={homeImage} /> */}
         </div>
         <InsideComponent />
+
+        <ShowcaseComponent />
 
         {/* </Zoom> */}
 
