@@ -1,6 +1,6 @@
-img {
-  width: 40%;
-}
+/* img {
+  width: 100%;
+} */
 
 .TableFooter {
   margin-bottom: 0;
@@ -11,4 +11,25 @@ img {
 
 .Services {
   margin-bottom: 20px;
+  position: relative;
 }
+.Services img {
+  width: 100%;
+}
+.ServicesTag {
+  font-family: "Nunito", sans-serif;
+  position: absolute;
+  margin: 0 auto;
+  color: black;
+  left: 20px;
+  font-weight: bold;
+  background: white;
+  bottom: 60px; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 25%; /* Set the width of the positioned div */
+}
+
+/* @media (max-width: 500px) {
+  /* .Services img {
+    width: 100%;
+  } */

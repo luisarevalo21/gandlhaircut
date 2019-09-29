@@ -6,7 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000000;
-  background-color: #f9f7f6;
+  /* background-color: #f9f7f6; */
+  background-image: linear-gradient(
+    to bottom,
+    /* #e28a0b,
+    #db9e38,
+    #d6af5b,
+    #d3be7f, */ #d3cba3,
+    #d4cfa5,
+    #d4d3a7,
+    #d4d7aa,
+    #cdd58b,
+    #c4d26c,
+    #bad049,
+    #aece15
+  );
   font-family: "Nunito", sans-serif;
 }
 

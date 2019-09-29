@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-
 import TableComponent from "../../components/TableComponent/TableComponent";
-import image from "../../assets/images/IMG_8999.jpeg";
+import image from "../../assets/images/IMG_0619.JPG";
 import classes from "./Services.module.css";
+import Slide from "react-reveal/Slide";
+
 class ServicesComponent extends Component {
   state = {
     styles: [
@@ -20,14 +21,17 @@ class ServicesComponent extends Component {
   };
   render() {
     return (
-
-      <div className={classes.Services}>
-        <img src={image} alt='prices' />
-
+      <>
+        <div className={classes.Services}>
+          <img src={image} alt="prices" />
+          <Slide left>
+            {/* <h4 className={classes.ServicesTag}>Services</h4> */}
+          </Slide>
+        </div>
         <TableComponent styles={this.state.styles} />
         <p className={classes.TableFooter}>*prices are subject to change</p>
         <p>Thank You. Have a nice day!</p>
-      </div>
+      </>
     );
   }
 }
