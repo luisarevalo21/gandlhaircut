@@ -30,8 +30,8 @@ class StylistsComponent extends Component {
               <div className="row justify-content-md-center">
                 <div className="col-md-12 border border-dark rounded-lg">
                   <p>
-                    Specializes in: Men & Women Hair Cuts, Color, Keratin, Blow
-                    Outs
+                    Specializes in: Men, Women & Children Hair Cuts, Permanents,
+                    Dyes, HairStyles,Highlights, Eyebrow Waxing
                   </p>
                 </div>
               </div>
@@ -61,8 +61,8 @@ class StylistsComponent extends Component {
               <div className="row justify-content-md-center">
                 <div className="col-md-12 border border-dark rounded-lg">
                   <p>
-                    Specializes in: Men & Women Hair Cuts, Color, Keratin, Blow
-                    Outs
+                    Specializes in: Men, Women & Children Hair Cuts, Highlights,
+                    Permanents Hair Color, Hairstyles & much more. Outs
                   </p>
                 </div>
               </div>
