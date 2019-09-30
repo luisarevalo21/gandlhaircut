@@ -46,7 +46,7 @@
 }
 
 .active {
-  color: #f47621 !important;
+  color: rgb(238, 232, 232) !important;
 
   background-color: transparent;
 }
@@ -66,8 +66,7 @@
 .navbar a:hover {
   /* border-bottom: 2px solid blue; */
   font-weight: bold;
-
-  color: #f47621 !important;
+  color: white !important;
   text-decoration: none;
 }
 
