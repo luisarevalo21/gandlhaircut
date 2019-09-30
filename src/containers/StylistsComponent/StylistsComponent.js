@@ -2,28 +2,31 @@ import React, { Component } from "react";
 import "./Stylists.module.css";
 import Glenda from "../../assets/images/Stylists/Glenda2.jpg";
 import Lorena from "../../assets/images/Stylists/Lorena.jpg";
+import Slide from "react-reveal/Slide";
 
 class StylistsComponent extends Component {
   state = {};
 
   render() {
     return (
-      <div className="row justify-content-md-center">
+      <div className="row justify-content-md-center no-gutters">
         <div className="col-md-10">
           <div className="row justify-content-md-center mt-5">
-            <div id="infobox" className="col-md-8 p-2">
+            <div id="infobox" className="col-lg-8 p-2">
               <div className="row justify-content-md-center">
                 <div className="col-md-6">
                   <img src={Lorena} alt="placeholder" />
                 </div>
 
                 <div className="col-md-6 pt-2">
+                  {/* <Slide right delay={1000}> */}
                   <p>
                     I have been in this industry and community for over 25
                     years. I enjoy the opportunity to apply my experience,
                     education, and love of this profession to give you an
                     enjoyable and satisfying salon experience.
                   </p>
+                  {/* </Slide> */}
                 </div>
               </div>
 
@@ -46,6 +49,7 @@ class StylistsComponent extends Component {
                 </div>
 
                 <div className="col-md-6 pt-2">
+                  {/* <Slide right delay={3000}> */}
                   <p>
                     I have been working in the beauty industry since I was 19. I
                     love it as much as I did the first time I stood behind my
@@ -55,6 +59,7 @@ class StylistsComponent extends Component {
                     great about themselves is my passion. Don't be afraid of
                     change.
                   </p>
+                  {/* </Slide> */}
                 </div>
               </div>
 
