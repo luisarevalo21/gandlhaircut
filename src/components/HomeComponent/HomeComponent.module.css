@@ -5,11 +5,11 @@
   /* display: inline-block; */
 }
 
-/* .Container img {
+.Container img {
   width: 100%;
   margin: 0;
   height: 100%;
-} */
+}
 
 .Container .text {
   font-family: "Nunito", sans-serif;
@@ -56,10 +56,10 @@ h2 {
   text-align: center;
 }
 
-#logo {
+/* #logo {
   height: 40%;
   width: 5%;
-}
+} */
 
 @media (max-width: 500px) {
   .AboutInfo {

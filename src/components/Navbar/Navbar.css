@@ -9,7 +9,13 @@
   font-size: 20px;
 
   font-family: "Nunito", sans-serif;
-
+  background-image: linear-gradient(
+    to right,
+    #e28a0b,
+    #db9e38,
+    #d6af5b,
+    #d3be7f
+  );
   /* padding-top: 20px;
   padding-bottom: 20px; */
   /* position: fixed; */
