@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c97ade9402c46c1cf58a7104ef95dda7",
+    "revision": "c18a1a7676ec4d54bbc1fda2bc0d466e",
     "url": "/gandlhaircut/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gandlhaircut/static/css/2.a65581f3.chunk.css"
   },
   {
-    "revision": "beb51d7fe6bf4c152a35",
+    "revision": "bc2d0847ee90d9033421",
     "url": "/gandlhaircut/static/css/main.36df3af9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gandlhaircut/static/js/2.2c24b398.chunk.js"
   },
   {
-    "revision": "beb51d7fe6bf4c152a35",
-    "url": "/gandlhaircut/static/js/main.eaa321c1.chunk.js"
+    "revision": "bc2d0847ee90d9033421",
+    "url": "/gandlhaircut/static/js/main.5cc28712.chunk.js"
   },
   {
     "revision": "9b1aa649afa1820f35dc",
