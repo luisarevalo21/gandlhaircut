@@ -12,7 +12,7 @@ import Slide from "react-reveal/Slide";
 
 const insideComponent = props => (
   <div className={classes.InsideMain}>
-    <Slide left duration={2000} delay={2000}>
+    <Slide left duration={1000} delay={2000}>
       <h3>Inside Our Salon</h3>
     </Slide>
 

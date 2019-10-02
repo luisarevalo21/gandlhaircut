@@ -38,12 +38,12 @@ a:hover {
   /* margin: 0 20px; */
 
 .Address {
-  color: #ccc;
+  color: #f47621;
   text-decoration: none !important;
 }
 
 .Address:hover {
-  color: #f47621 !important;
+  color: #ccc !important;
   text-decoration: none !important;
 }
 
