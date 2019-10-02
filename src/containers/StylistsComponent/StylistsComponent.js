@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Stylists.module.css";
 import Glenda from "../../assets/images/Stylists/Glenda2.jpg";
 import Lorena from "../../assets/images/Stylists/Lorena.jpg";
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 
 class StylistsComponent extends Component {
   state = {};

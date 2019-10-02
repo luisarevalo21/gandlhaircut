@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import ImageComponent from "../ImageComponent/ImageComponent";
 import InsideImage1 from "../../assets/images/Inside_Photos/Inside1.jpg";
 import InsideImage2 from "../../assets/images/Inside_Photos/Inside2.jpg";
-import InsideImage3 from "../../assets/images/Inside_Photos/Inside3.jpg";
+import InsideImage3 from "../../assets/images/Inside_Photos/Inside3.JPG";
 
 import classes from "./InsideComponent.module.css";
 
