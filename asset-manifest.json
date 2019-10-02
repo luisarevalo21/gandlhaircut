@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/gandlhaircut/static/css/main.36df3af9.chunk.css",
+    "main.js": "/gandlhaircut/static/js/main.eaa321c1.chunk.js",
+    "main.js.map": "/gandlhaircut/static/js/main.eaa321c1.chunk.js.map",
+    "runtime~main.js": "/gandlhaircut/static/js/runtime~main.b5e762c9.js",
+    "runtime~main.js.map": "/gandlhaircut/static/js/runtime~main.b5e762c9.js.map",
+    "static/css/2.a65581f3.chunk.css": "/gandlhaircut/static/css/2.a65581f3.chunk.css",
+    "static/js/2.2c24b398.chunk.js": "/gandlhaircut/static/js/2.2c24b398.chunk.js",
+    "static/js/2.2c24b398.chunk.js.map": "/gandlhaircut/static/js/2.2c24b398.chunk.js.map",
+    "index.html": "/gandlhaircut/index.html",
+    "precache-manifest.2ee3203e6286efafad18f1aa0c593345.js": "/gandlhaircut/precache-manifest.2ee3203e6286efafad18f1aa0c593345.js",
+    "service-worker.js": "/gandlhaircut/service-worker.js",
+    "static/css/2.a65581f3.chunk.css.map": "/gandlhaircut/static/css/2.a65581f3.chunk.css.map",
+    "static/css/main.36df3af9.chunk.css.map": "/gandlhaircut/static/css/main.36df3af9.chunk.css.map",
+    "static/media/AboutImage1Cropped.jpg": "/gandlhaircut/static/media/AboutImage1Cropped.7955557f.jpg",
+    "static/media/AboutImage2Cropped.jpg": "/gandlhaircut/static/media/AboutImage2Cropped.7dcaa00e.jpg",
+    "static/media/AboutImage3Cropped.jpg": "/gandlhaircut/static/media/AboutImage3Cropped.d77e4b9a.jpg",
+    "static/media/Glenda2.jpg": "/gandlhaircut/static/media/Glenda2.d87ca76c.jpg",
+    "static/media/IMG_0605.JPG": "/gandlhaircut/static/media/IMG_0605.1c80e03f.JPG",
+    "static/media/IMG_0606.JPG": "/gandlhaircut/static/media/IMG_0606.a96ab61e.JPG",
+    "static/media/IMG_0619.JPG": "/gandlhaircut/static/media/IMG_0619.a7ce15a8.JPG",
+    "static/media/Inside1.jpg": "/gandlhaircut/static/media/Inside1.88286d24.jpg",
+    "static/media/Inside2.jpg": "/gandlhaircut/static/media/Inside2.8a33e766.jpg",
+    "static/media/Inside3.JPG": "/gandlhaircut/static/media/Inside3.0529846e.JPG",
+    "static/media/LogoGL.png": "/gandlhaircut/static/media/LogoGL.59bb8268.png",
+    "static/media/Lorena.jpg": "/gandlhaircut/static/media/Lorena.87fb84b1.jpg",
+    "static/media/home1.jpg": "/gandlhaircut/static/media/home1.3b2883e7.jpg"
+  }
+}
