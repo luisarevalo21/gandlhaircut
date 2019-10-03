@@ -9,8 +9,8 @@ class ServicesComponent extends Component {
     styles: [
       { styleName: "Men's Hair cut", price: 15 },
       { styleName: "Women's Hair cut", price: 16 },
-      { styleName: "Kids Hair cut", price: 15 },
-      { styleName: "Senior Hair cut", price: 12 },
+      { styleName: "Kid's Hair cut", price: 15 },
+      { styleName: "Senior's Hair cut", price: 12 },
       { styleName: "Hair Color", price: "45+" },
       { styleName: "Perms", price: "60+" },
       { styleName: "Highlights", price: "50+" },
