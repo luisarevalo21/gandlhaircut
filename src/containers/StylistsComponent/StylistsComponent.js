@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Stylists.module.css";
+import "./Stylists.css";
 import Glenda from "../../assets/images/Stylists/Glenda2.jpg";
 import Lorena from "../../assets/images/Stylists/Lorena.jpg";
 // import Slide from "react-reveal/Slide";
@@ -9,8 +9,8 @@ class StylistsComponent extends Component {
 
   render() {
     return (
-      <div className="row justify-content-md-center no-gutters">
-        <div className="col-md-10">
+      <div className="row justify-content-center no-gutters " id="top">
+        <div className="col-6 col-md-12">
           <div className="row justify-content-md-center mt-5">
             <div id="infobox" className="col-lg-8 p-2">
               <div className="row justify-content-md-center">
@@ -18,7 +18,7 @@ class StylistsComponent extends Component {
                   <img src={Lorena} alt="placeholder" />
                 </div>
 
-                <div className="col-md-6 pt-2">
+                <div className="col-md-6 pt-2 pb-2">
                   {/* <Slide right delay={1000}> */}
                   <p>
                     I have been in this industry and community for over 25
@@ -48,7 +48,7 @@ class StylistsComponent extends Component {
                   <img src={Glenda} alt="placeholder" />
                 </div>
 
-                <div className="col-md-6 pt-2">
+                <div className="col-md-6 pt-2 pb-2">
                   {/* <Slide right delay={3000}> */}
                   <p>
                     I have been working in the beauty industry since I was 19. I

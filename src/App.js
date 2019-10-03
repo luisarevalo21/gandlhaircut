@@ -14,7 +14,7 @@ function App() {
       <NavBar />
 
       <Switch>
-        <Route exact path="/gandlhaircut" component={HomeComponent} />
+        <Route exact path="/" component={HomeComponent} />
         <Route path="/services" component={ServicesComponent} />
         <Route path="/stylists" component={StylistsComponent} />
       </Switch>
