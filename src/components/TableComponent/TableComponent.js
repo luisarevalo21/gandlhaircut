@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./TableComponent.module.css";
+import Slide from "react-reveal/Slide";
 
 const tableComponent = props => {
   const data = props.styles.map(element => {
@@ -13,7 +14,9 @@ const tableComponent = props => {
 
   return (
     <div>
-      <h2 className={classes.Heading}>Services Pricing</h2>
+      <Slide left delay={1000}>
+        <h2 className={classes.Heading}>Services Pricing</h2>
+      </Slide>
       <table className={classes.Table}>
         <tbody>{data}</tbody>
       </table>
