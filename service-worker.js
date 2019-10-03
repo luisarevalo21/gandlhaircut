@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gandlhaircut/precache-manifest.5911ceb34e7864d92b39df4cb05b49e6.js"
+  "/gandlhaircut/precache-manifest.1842e14a1bbbcbbe8acc928531adaf2f.js"
 );
 
 self.addEventListener('message', (event) => {

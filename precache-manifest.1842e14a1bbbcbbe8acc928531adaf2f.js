@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c18a1a7676ec4d54bbc1fda2bc0d466e",
+    "revision": "1332fcc9bb706d48779d9e6632f43b81",
     "url": "/gandlhaircut/index.html"
   },
   {
-    "revision": "865834dc3402d72f1ef9",
+    "revision": "fc7d1e2b9735fcba383d",
     "url": "/gandlhaircut/static/css/2.a65581f3.chunk.css"
   },
   {
-    "revision": "bc2d0847ee90d9033421",
-    "url": "/gandlhaircut/static/css/main.36df3af9.chunk.css"
+    "revision": "21582227e009bf3f40e0",
+    "url": "/gandlhaircut/static/css/main.847c47ef.chunk.css"
   },
   {
-    "revision": "865834dc3402d72f1ef9",
-    "url": "/gandlhaircut/static/js/2.2c24b398.chunk.js"
+    "revision": "fc7d1e2b9735fcba383d",
+    "url": "/gandlhaircut/static/js/2.126f1e2b.chunk.js"
   },
   {
-    "revision": "bc2d0847ee90d9033421",
-    "url": "/gandlhaircut/static/js/main.5cc28712.chunk.js"
+    "revision": "21582227e009bf3f40e0",
+    "url": "/gandlhaircut/static/js/main.54888377.chunk.js"
   },
   {
     "revision": "9b1aa649afa1820f35dc",
@@ -65,7 +65,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "0529846ee6bf57c0131052aae47d93be",
-    "url": "/gandlhaircut/static/media/Inside3.0529846e.JPG"
+    "url": "/gandlhaircut/static/media/Inside3.0529846e.jpg"
   },
   {
     "revision": "59bb8268dcf8f8a100f771c707097a0c",
