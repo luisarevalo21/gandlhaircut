@@ -21,11 +21,19 @@ class StylistsComponent extends Component {
                 <div className="col-md-6 pt-2 pb-2">
                   {/* <Slide right delay={1000}> */}
                   <p>
-                    I have been in this industry and community for over 25
-                    years. I enjoy the opportunity to apply my experience,
-                    education, and love of this profession to give you an
-                    enjoyable and satisfying salon experience.
+                    My name is Lorena and I have over 30 years experience of
+                    cosmetology. With 15 years done in Guatemala City. After
+                    coming to America for a better life, I've enjoyed working
+                    for the public cutting hair and making people feel confident
+                    in their appearances.
+                    {/*                     
+                    
+                    I have been in this industry and community
+                    for over 25 years. I enjoy the opportunity to apply my
+                    experience, education, and love of this profession to give
+                    you an enjoyable and satisfying salon experience. */}
                   </p>
+                  {/* <p>Spanish translation</p> */}
                   {/* </Slide> */}
                 </div>
               </div>
@@ -33,8 +41,9 @@ class StylistsComponent extends Component {
               <div className="row justify-content-md-center">
                 <div className="col-md-12 border border-dark rounded-lg">
                   <p>
-                    Specializes in: Men, Women & Children Hair Cuts, Permanents,
-                    Dyes, HairStyles,Highlights, Eyebrow Waxing
+                    Specializes in: Men, Women, & Children Hair Cuts,
+                    Permanents, Hair Dyes, HairStyles, Highlights, Eyebrow
+                    Waxing
                   </p>
                 </div>
               </div>
@@ -51,14 +60,17 @@ class StylistsComponent extends Component {
                 <div className="col-md-6 pt-2 pb-2">
                   {/* <Slide right delay={3000}> */}
                   <p>
-                    I have been working in the beauty industry since I was 19. I
-                    love it as much as I did the first time I stood behind my
-                    chair. I am the former owner of Nolan & Co. in Oak Lawn. I
-                    regularly attend classes to learn the newest trends and
-                    about the newest hair products. Helping to make someone feel
-                    great about themselves is my passion. Don't be afraid of
-                    change.
+                    My name is Glenda and I first began helping my father,
+                    working at his barber shop in Guatemala. I then realized I
+                    enjoyed working in the shop, working for the public and
+                    cutting hair became my passion. With over 30 years of
+                    experience I treat my clients like family, with open arms,
+                    to help them feel confident in their appearance. I give
+                    thanks to God for giving me this opportunity to serve the
+                    public.
                   </p>
+                  {/* <p>Spanish translation</p> */}
+
                   {/* </Slide> */}
                 </div>
               </div>
@@ -66,8 +78,8 @@ class StylistsComponent extends Component {
               <div className="row justify-content-md-center">
                 <div className="col-md-12 border border-dark rounded-lg">
                   <p>
-                    Specializes in: Men, Women & Children Hair Cuts, Highlights,
-                    Permanents Hair Color, Hairstyles & much more. Outs
+                    Specializes in: Men, Women, & Children Hair Cuts,
+                    Highlights, Permanents Hair Color, Hairstyles & much more.
                   </p>
                 </div>
               </div>
