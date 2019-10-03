@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import ImageComponent from "../ImageComponent/ImageComponent";
 import InsideImage1 from "../../assets/images/Inside_Photos/Inside1.jpg";
 import InsideImage2 from "../../assets/images/Inside_Photos/Inside2.jpg";
-import InsideImage3 from "../../assets/images/Inside_Photos/Inside3.JPG";
+import InsideImage3 from "../../assets/images/Inside_Photos/Inside3.jpg";
 
 import classes from "./InsideComponent.module.css";
 
@@ -12,7 +12,7 @@ import Slide from "react-reveal/Slide";
 
 const insideComponent = props => (
   <div className={classes.InsideMain}>
-    <Slide left duration={2000} delay={2000}>
+    <Slide left duration={1000} delay={2000}>
       <h3>Inside Our Salon</h3>
     </Slide>
 

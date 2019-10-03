@@ -5,11 +5,13 @@ import classes from "./ShowcaseComponent.module.css";
 import showcase1 from "../../assets/images/Showcase_Photos/IMG_0605.JPG";
 import showcase2 from "../../assets/images/Showcase_Photos/IMG_0606.JPG";
 import showcase3 from "../../assets/images/Showcase_Photos/IMG_0619.JPG";
+import Slide from "react-reveal/Slide";
 
 const showcaseComponent = props => (
   <div className={classes.Showcase}>
-    <h3>Our Work</h3>
-
+    <Slide left duration={1000} delay={3000}>
+      <h3>Our Work</h3>
+    </Slide>
     <div className={classes.CarouselLayout}>
       <Carousel className={classes.Carousel}>
         <Carousel.Item
