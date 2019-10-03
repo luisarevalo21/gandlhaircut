@@ -20,7 +20,7 @@ class HomeComponent extends Component {
       <div>
         {/* <Zoom> */}
         <div className={classes.Container}>
-          <img src={homeImage} alt=''></img>
+          <img src={homeImage} alt=""></img>
           <div className={classes.text}>
             <h4>Welcome to G & L Haircut</h4>
           </div>

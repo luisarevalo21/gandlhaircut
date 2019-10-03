@@ -9,8 +9,8 @@ class StylistsComponent extends Component {
 
   render() {
     return (
-      <div className="row justify-content-center no-gutters " id="top">
-        <div className="col-6 col-md-12">
+      <div className="row justify-content-center no-gutters ">
+        <div className="col-10 col-md-10">
           <div className="row justify-content-md-center mt-5">
             <div id="infobox" className="col-lg-8 p-2">
               <div className="row justify-content-md-center">

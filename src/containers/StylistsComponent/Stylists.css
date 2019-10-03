@@ -7,10 +7,10 @@ img {
   width: 60%;
   margin-bottom: 3%;
 }
-
+/* 
 @media (max-width: 500px) {
   .row.no-gutter {
     margin-right: 0;
     margin-left: 0;
   }
-}
+} */
