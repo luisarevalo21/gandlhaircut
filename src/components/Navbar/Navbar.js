@@ -4,7 +4,7 @@ import "./Navbar.css";
 // import ResponsiveMenu from "react-responsive-navbar";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Logo from "../../assets/images/Logo/LogoGL.png";
+import Logo from "../../assets/images/Logo/GL.logo.V2.png";
 import { Link } from "react-scroll";
 const navBar = props => {
   // state = {
