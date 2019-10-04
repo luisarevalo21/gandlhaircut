@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1332fcc9bb706d48779d9e6632f43b81",
+    "revision": "ffb8db48a6dc44f61e92a27e39ec4c5d",
     "url": "/gandlhaircut/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gandlhaircut/static/css/2.a65581f3.chunk.css"
   },
   {
-    "revision": "21582227e009bf3f40e0",
+    "revision": "665ec04f7df3f25c4cad",
     "url": "/gandlhaircut/static/css/main.847c47ef.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gandlhaircut/static/js/2.126f1e2b.chunk.js"
   },
   {
-    "revision": "21582227e009bf3f40e0",
-    "url": "/gandlhaircut/static/js/main.54888377.chunk.js"
+    "revision": "665ec04f7df3f25c4cad",
+    "url": "/gandlhaircut/static/js/main.5ffcb437.chunk.js"
   },
   {
     "revision": "9b1aa649afa1820f35dc",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d77e4b9a0477a335884a43361a5200fc",
     "url": "/gandlhaircut/static/media/AboutImage3Cropped.d77e4b9a.jpg"
+  },
+  {
+    "revision": "0dd2f5db13e2a667601ad875499908ee",
+    "url": "/gandlhaircut/static/media/GL.logo.V2.0dd2f5db.png"
   },
   {
     "revision": "d87ca76cae7468e1105612c343d86cf5",
@@ -66,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0529846ee6bf57c0131052aae47d93be",
     "url": "/gandlhaircut/static/media/Inside3.0529846e.jpg"
-  },
-  {
-    "revision": "59bb8268dcf8f8a100f771c707097a0c",
-    "url": "/gandlhaircut/static/media/LogoGL.59bb8268.png"
   },
   {
     "revision": "87fb84b179ce2b7303537387f1255f05",

@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/gandlhaircut/static/css/main.847c47ef.chunk.css",
-    "main.js": "/gandlhaircut/static/js/main.54888377.chunk.js",
-    "main.js.map": "/gandlhaircut/static/js/main.54888377.chunk.js.map",
+    "main.js": "/gandlhaircut/static/js/main.5ffcb437.chunk.js",
+    "main.js.map": "/gandlhaircut/static/js/main.5ffcb437.chunk.js.map",
     "runtime~main.js": "/gandlhaircut/static/js/runtime~main.b5e762c9.js",
     "runtime~main.js.map": "/gandlhaircut/static/js/runtime~main.b5e762c9.js.map",
     "static/css/2.a65581f3.chunk.css": "/gandlhaircut/static/css/2.a65581f3.chunk.css",
     "static/js/2.126f1e2b.chunk.js": "/gandlhaircut/static/js/2.126f1e2b.chunk.js",
     "static/js/2.126f1e2b.chunk.js.map": "/gandlhaircut/static/js/2.126f1e2b.chunk.js.map",
     "index.html": "/gandlhaircut/index.html",
-    "precache-manifest.1842e14a1bbbcbbe8acc928531adaf2f.js": "/gandlhaircut/precache-manifest.1842e14a1bbbcbbe8acc928531adaf2f.js",
+    "precache-manifest.a1115b13a9200063e694b56f6d7eba90.js": "/gandlhaircut/precache-manifest.a1115b13a9200063e694b56f6d7eba90.js",
     "service-worker.js": "/gandlhaircut/service-worker.js",
     "static/css/2.a65581f3.chunk.css.map": "/gandlhaircut/static/css/2.a65581f3.chunk.css.map",
     "static/css/main.847c47ef.chunk.css.map": "/gandlhaircut/static/css/main.847c47ef.chunk.css.map",
     "static/media/AboutImage1Cropped.jpg": "/gandlhaircut/static/media/AboutImage1Cropped.7955557f.jpg",
     "static/media/AboutImage2Cropped.jpg": "/gandlhaircut/static/media/AboutImage2Cropped.7dcaa00e.jpg",
     "static/media/AboutImage3Cropped.jpg": "/gandlhaircut/static/media/AboutImage3Cropped.d77e4b9a.jpg",
+    "static/media/GL.logo.V2.png": "/gandlhaircut/static/media/GL.logo.V2.0dd2f5db.png",
     "static/media/Glenda2.jpg": "/gandlhaircut/static/media/Glenda2.d87ca76c.jpg",
     "static/media/IMG_0605.JPG": "/gandlhaircut/static/media/IMG_0605.1c80e03f.JPG",
     "static/media/IMG_0606.JPG": "/gandlhaircut/static/media/IMG_0606.a96ab61e.JPG",
@@ -23,7 +24,6 @@
     "static/media/Inside1.jpg": "/gandlhaircut/static/media/Inside1.88286d24.jpg",
     "static/media/Inside2.jpg": "/gandlhaircut/static/media/Inside2.8a33e766.jpg",
     "static/media/Inside3.jpg": "/gandlhaircut/static/media/Inside3.0529846e.jpg",
-    "static/media/LogoGL.png": "/gandlhaircut/static/media/LogoGL.59bb8268.png",
     "static/media/Lorena.jpg": "/gandlhaircut/static/media/Lorena.87fb84b1.jpg",
     "static/media/home1.jpg": "/gandlhaircut/static/media/home1.3b2883e7.jpg"
   }
