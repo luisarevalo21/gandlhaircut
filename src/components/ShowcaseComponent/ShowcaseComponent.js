@@ -13,7 +13,7 @@ const showcaseComponent = props => (
       <h3>Our Work</h3>
     </Slide>
     <div className={classes.CarouselLayout}>
-      <Carousel className={classes.Carousel}>
+      <Carousel className={classes.Carousel} interval={5000}>
         <Carousel.Item
         // className={classes.carouselItem}
         // style={{ height: "500px", overflow: "hidden", width: "100%" }}

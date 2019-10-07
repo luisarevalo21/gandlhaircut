@@ -53,6 +53,8 @@ class HomeComponent extends Component {
               <p>We look forward to your visit!</p>
             </div>
           </Slide>
+
+          {/* <img src="https://drive.google.com/open?id=1gwO7Nwu_n6LcA8qYBTP2FtQ3cEns7ccb" /> */}
           {/* <Slide duration={2000} right delay={1000}> */}
           <PhotoSlideShow />
           {/* </Slide> */}

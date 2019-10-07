@@ -12,7 +12,7 @@ import ImageComponent from "../ImageComponent/ImageComponent";
 
 const photoSlideShow = props => {
   return (
-    <Carousel className={classes.Carousel}>
+    <Carousel className={classes.Carousel} interval={3000}>
       <Carousel.Item
       // className={classes.carouselItem}
       // style={{ height: "500px", overflow: "hidden", width: "100%" }}
