@@ -38,7 +38,10 @@ class HomeComponent extends Component {
             <div className={classes.AboutText}>
               <h2>About Us</h2>
               <br></br>
-              <p>G&L Haircut has been a Family owned Salon for 17+ years.</p>
+              <p>
+                G & L Haircut has been a family owned salon and established in
+                El Sobrante for 16+ years.
+              </p>
               <br></br>
               <p>
                 We take pride in our work and do our best to make you look your
@@ -50,6 +53,8 @@ class HomeComponent extends Component {
               <p>We look forward to your visit!</p>
             </div>
           </Slide>
+
+          {/* <img src="https://drive.google.com/open?id=1gwO7Nwu_n6LcA8qYBTP2FtQ3cEns7ccb" /> */}
           {/* <Slide duration={2000} right delay={1000}> */}
           <PhotoSlideShow />
           {/* </Slide> */}

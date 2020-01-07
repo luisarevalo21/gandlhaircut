@@ -16,7 +16,7 @@ const insideComponent = props => (
       <h3>Inside Our Salon</h3>
     </Slide>
 
-    <Carousel>
+    <Carousel interval={4000}>
       <Carousel.Item>
         <ImageComponent image={InsideImage1} />
       </Carousel.Item>
