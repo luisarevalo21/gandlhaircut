@@ -4,13 +4,11 @@ import classes from "./Footer.module.css";
 // import Navbar from 'react-bootstrap/Navbar';
 import { Element } from "react-scroll";
 
-const footer = props => (
-  
-    <Element id="example-destination" name="example-destination">
-      <div className={classes.Footer}>
-        <div className={classes.LocationBlock}>
-          <h4>Location</h4>
-
+const footer = (props) => (
+  <Element id="example-destination" name="example-destination">
+    <div className={classes.Footer}>
+      <div className={classes.LocationBlock}>
+        <h4>Location</h4>
 
         {/* href="http://maps.google.com/maps?q=4022+San+Pablo+Dam+Rd,+El+Sobrante,+CA+94803"> */}
         <a

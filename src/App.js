@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Announcement />
+      {/* <Announcement /> */}
       <Switch>
         <Route exact path="/" component={HomeComponent} />
         <Route exact path="/gandlhaircut" component={HomeComponent} />

@@ -15,7 +15,6 @@
   position: sticky;
   bottom: 0;
   left: 0;
-  max-height: 50px;
 
   /* position: absolute; */
   /* bottom: 0; */
@@ -30,7 +29,6 @@ p {
 /* a {
   margin: 0;
 }
-
 a:hover {
   color: #f47621 !important;
   text-decoration: none !important;
@@ -39,12 +37,12 @@ a:hover {
   /* margin: 0 20px; */
 
 .Address {
-  color: #f47621;
+  color: #ccc;
   text-decoration: none !important;
 }
 
 .Address:hover {
-  color: #ccc !important;
+  color: #f47621 !important;
   text-decoration: none !important;
 }
 
