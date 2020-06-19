@@ -10,7 +10,7 @@ import classes from "./InsideComponent.module.css";
 
 import Slide from "react-reveal/Slide";
 
-const insideComponent = props => (
+const insideComponent = (props) => (
   <div className={classes.InsideMain}>
     <Slide left duration={2000} delay={2000}>
       <h3>Inside Our Salon</h3>
