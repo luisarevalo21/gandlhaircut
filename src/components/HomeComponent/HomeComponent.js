@@ -11,13 +11,14 @@ import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 import InsideComponent from "../InsideComponent/InsideComponent";
 import ShowcaseComponent from "../ShowcaseComponent/ShowcaseComponent";
 // import homeImage from "../../assets/images/Home_Photos/home1.jpg";
-
+import Announcement from "../Announcement/Announcement";
 class HomeComponent extends Component {
   state = {};
 
   render() {
     return (
       <div>
+        <Announcement />
         {/* <Zoom> */}
         <div className={classes.Container}>
           <img src={homeImage} alt=""></img>
