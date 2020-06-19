@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.819d1fd0.chunk.css",
-    "main.js": "/static/js/main.7fdd220d.chunk.js",
-    "main.js.map": "/static/js/main.7fdd220d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5d44b96b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5d44b96b.js.map",
-    "static/css/2.d0d1d5b3.chunk.css": "/static/css/2.d0d1d5b3.chunk.css",
-    "static/js/2.973df7eb.chunk.js": "/static/js/2.973df7eb.chunk.js",
-    "static/js/2.973df7eb.chunk.js.map": "/static/js/2.973df7eb.chunk.js.map",
+    "main.css": "/static/css/main.42132f55.chunk.css",
+    "main.js": "/static/js/main.571bfa59.chunk.js",
+    "main.js.map": "/static/js/main.571bfa59.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.ed3ada82.js",
+    "runtime~main.js.map": "/static/js/runtime~main.ed3ada82.js.map",
+    "static/css/2.a65581f3.chunk.css": "/static/css/2.a65581f3.chunk.css",
+    "static/js/2.8768c0a8.chunk.js": "/static/js/2.8768c0a8.chunk.js",
+    "static/js/2.8768c0a8.chunk.js.map": "/static/js/2.8768c0a8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f8a99c2f5d0d4c44ac972b0483eb3cfd.js": "/precache-manifest.f8a99c2f5d0d4c44ac972b0483eb3cfd.js",
+    "precache-manifest.f6c538155a5ad8aa10df6ffff4cc9d9e.js": "/precache-manifest.f6c538155a5ad8aa10df6ffff4cc9d9e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.d0d1d5b3.chunk.css.map": "/static/css/2.d0d1d5b3.chunk.css.map",
-    "static/css/main.819d1fd0.chunk.css.map": "/static/css/main.819d1fd0.chunk.css.map",
-    "static/js/2.973df7eb.chunk.js.LICENSE": "/static/js/2.973df7eb.chunk.js.LICENSE",
+    "static/css/2.a65581f3.chunk.css.map": "/static/css/2.a65581f3.chunk.css.map",
+    "static/css/main.42132f55.chunk.css.map": "/static/css/main.42132f55.chunk.css.map",
     "static/media/AboutImage1Cropped.jpg": "/static/media/AboutImage1Cropped.7955557f.jpg",
     "static/media/AboutImage2Cropped.jpg": "/static/media/AboutImage2Cropped.7dcaa00e.jpg",
     "static/media/AboutImage3Cropped.jpg": "/static/media/AboutImage3Cropped.d77e4b9a.jpg",
@@ -27,12 +26,5 @@
     "static/media/Inside3.jpg": "/static/media/Inside3.0529846e.jpg",
     "static/media/Lorena.jpg": "/static/media/Lorena.87fb84b1.jpg",
     "static/media/home1.jpg": "/static/media/home1.3b2883e7.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.5d44b96b.js",
-    "static/css/2.d0d1d5b3.chunk.css",
-    "static/js/2.973df7eb.chunk.js",
-    "static/css/main.819d1fd0.chunk.css",
-    "static/js/main.7fdd220d.chunk.js"
-  ]
+  }
 }
