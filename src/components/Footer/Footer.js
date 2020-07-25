@@ -6,6 +6,7 @@ import { Element } from "react-scroll";
 
 const footer = (props) => (
   <Element id="example-destination" name="example-destination">
+    {/* <div className={classes.Container}> */}
     <div className={classes.Footer}>
       <div className={classes.LocationBlock}>
         <h4>Location</h4>
@@ -23,8 +24,8 @@ const footer = (props) => (
       {/* <div className={classes.Info}> */}
       <div className={classes.Hours}>
         <h4>Hours</h4>
-        <p>Monday - Friday: 11AM - 7PM</p>
-        <p>Saturday: 10AM - 6PM</p>
+        <p>Monday - Saturday: 11AM - 6PM</p>
+        {/* <p>Saturday: 10AM - 6PM</p> */}
         <p>Sunday: CLOSED</p>
       </div>
 

@@ -8,6 +8,7 @@ import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
 import ReactGA from "react-ga";
+import AnnouncmentComponent from "./components/AnnouncementComponent/AnnouncementComponent";
 import Announcement from "./components/Announcement/Announcement";
 function App() {
   const trackingId = "UA-150886843-1";
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/gandlhaircut" component={HomeComponent} />
         <Route path="/services" component={ServicesComponent} />
         <Route path="/stylists" component={StylistsComponent} />
+        <Route path="/announcements" component={AnnouncmentComponent} />
       </Switch>
 
       <Footer />

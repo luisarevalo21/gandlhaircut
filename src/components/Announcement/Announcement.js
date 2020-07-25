@@ -4,19 +4,19 @@ const announcement = (props) => (
   <div className={classes.Outer}>
     <div className={classes.Inner}>
       <h3 style={{ textAlign: "center" }}>Announcements:</h3>
-      <p style={{ fontWeight: "bold" }}>The salon is now open.</p>
-      <p>
-        Due to COVID 19, We had to make some adjustments for the safety of our
-        clients. <br />
-        Mon-Sat. We will accept walks and you may call ahead to schedule an
-        appointment. We are also asking our clients to wait in their cars or
-        outside to limit the amount of people inside the salon at once. <br />
-        Sun will remain closed.
-        <br />{" "}
-        <p style={{ fontWeight: "bold" }}>Our hours will be from 11AM - 6PM.</p>
-      </p>
+      <p style={{ fontWeight: "bold" }}>{props.title}</p>
+      <p className={classes.paragraphs}> {props.body1} </p>
+      <p className={classes.paragraphs}>{props.body2} </p>
+      <p className={classes.paragraphs}>{props.body3} </p>
+      <p className={classes.paragraphs}>{props.body4} </p>
+      <p className={classes.paragraphs}>{props.body5} </p>
+      <p className={classes.paragraphs}> {props.body6} </p>
+      {props.date ? (
+        <p className={classes.Date}>Posted on {props.date}</p>
+      ) : null}
+      {/* <p style={{ fontWeight: "bold" }}>Our hours will be from 11AM - 6PM.</p>
       <p>*Changes will go into effect immediately and last indefinitely.</p>
-      <p>Thank you for your patience. God Bless.</p>
+      <p>Thank you for your patience. God Bless.</p> */}
     </div>
   </div>
 );

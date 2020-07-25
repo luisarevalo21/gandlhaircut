@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Logo from "../../assets/images/Logo/GL.logo.V2.png";
 import { Link } from "react-scroll";
-const navBar = props => {
+const navBar = (props) => {
   // state = {
   //   stringName: ""
   // };
@@ -80,6 +80,8 @@ const navBar = props => {
           >
             Contact
           </Link>
+          <NavLink to="/announcements">Announcements</NavLink>
+
           {/* Contact
           </NavLink> */}
         </Nav>

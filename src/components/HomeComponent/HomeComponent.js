@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import homeImage from "../../assets/images/Home_Photos/home1.jpg";
+import Carousel from "react-bootstrap/Carousel";
+
 // import image from "../../assets/images/IMG_8999.jpeg";
 // import Logo from "../../assets/images/Home_Photos/LogoGL.png";
 import classes from "./HomeComponent.module.css";
@@ -10,29 +12,79 @@ import "./HomeComponent.module.css";
 import PhotoSlideShow from "../PhotoSlideShow/PhotoSlideShow";
 import InsideComponent from "../InsideComponent/InsideComponent";
 import ShowcaseComponent from "../ShowcaseComponent/ShowcaseComponent";
+import axios from "../../axios/axios";
 // import homeImage from "../../assets/images/Home_Photos/home1.jpg";
 import Announcement from "../Announcement/Announcement";
+import announcementTemplate from "../AnnouncementTemplate/AnnouncementTemplate";
 class HomeComponent extends Component {
-  state = {};
+  state = {
+    currentAnnouncement: [],
+  };
 
+  componentDidMount() {
+    axios
+      .get("/announcements.json")
+      .then((response) => {
+        const lastAnnouncement = response.data.length - 1;
+        const currentAnnouncement = response.data[lastAnnouncement];
+        this.setState({ currentAnnouncement });
+      })
+      .catch((error) => console.log(error));
+  }
   render() {
+    const { currentAnnouncement } = this.state;
+    let announcement = null;
+    if (currentAnnouncement) {
+      announcement = (
+        <Announcement
+          title={currentAnnouncement.title}
+          body1={currentAnnouncement.body1}
+          body2={currentAnnouncement.body2}
+          body3={currentAnnouncement.body3}
+          body4={currentAnnouncement.body4}
+          body5={currentAnnouncement.body5}
+          body6={currentAnnouncement.body6}
+          date={currentAnnouncement.date}
+        />
+      );
+      // console.log(currentAnnouncement);
+    }
     return (
       <div>
-        <Announcement />
+        {/* <img src={homeImage} alt="homeImage" className={classes.Image}></img> */}
+        {/* <Announcement /> */}
         {/* <Zoom> */}
-        <div className={classes.Container}>
+        {/* <div className={classes.Container}>
           <img src={homeImage} alt=""></img>
           <div className={classes.text}>
             <h4>Welcome to G & L Haircut</h4>
           </div>
-          {/* <img id='logo' src={Logo} alt='logo' style={{}}/> */}
+        </div> */}
+        {/* <div className={classes.InsideMain}> */}
+        <Carousel interval={0} className={classes.InsideMain}>
+          <Carousel.Item>{announcement}</Carousel.Item>
+          <Carousel.Item>
+            {/* <div className={classes.Container}> */}
+            <img
+              src={homeImage}
+              alt="homeImage"
+              className={classes.Image}
+            ></img>
+            {/* <div className={classes.text}> */}
+            <Carousel.Caption>
+              <h4 className={classes.text}>Welcome to G & L Haircut</h4>
+            </Carousel.Caption>
+            {/* </div> */}
+          </Carousel.Item>
+        </Carousel>
 
-          {/* <div className={classes.text}>
+        {/* <img id='logo' src={Logo} alt='logo' style={{}}/> */}
+
+        {/* <div className={classes.text}>
             <h4>Welcome to G & L Haircuts</h4>
           </div> */}
-        </div>
-        {/* </Zoom> */}
 
+        {/* </Zoom> */}
         {/* <Zoom> */}
         <div className={classes.AboutInfo}>
           <Slide duration={2000} left>
@@ -62,11 +114,8 @@ class HomeComponent extends Component {
           {/* <img src={homeImage} /> */}
         </div>
         <InsideComponent />
-
         <ShowcaseComponent />
-
         {/* </Zoom> */}
-
         {/* <Fade bottom delay={1500}> */}
         {/* <PhotoSlideShow /> */}
         {/* </Fade> */}

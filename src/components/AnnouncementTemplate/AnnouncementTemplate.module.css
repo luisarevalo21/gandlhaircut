@@ -5,21 +5,29 @@
 }
 
 .Inner {
-  color: black;
-  /* background-color: #fffbcf; */
+  background-color: #fffbcf;
   width: 50%;
   border: 1px solid black;
   display: inline-block;
   text-align: left;
   padding: 10px;
 }
+.Title {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.paragraphs {
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
 .Date {
   font-weight: bold;
 }
 
-.Inner p {
-  margin-bottom: 20px;
-}
 @media (max-width: 500px) {
   .Inner {
     width: 100%;
