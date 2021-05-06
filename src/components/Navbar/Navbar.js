@@ -65,7 +65,7 @@ const navBar = (props) => {
 
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="nav">
-          <NavLink exact to={"/"}>
+          <NavLink exact to="/">
             Home
           </NavLink>
           <NavLink to="/services">Services</NavLink>
